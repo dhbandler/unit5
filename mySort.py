@@ -13,7 +13,7 @@ def mySort(A):
     while i < len(A):
         x = A[i]
         j = i - 1
-        while j>= 0 and j[1] > x:
+        while j >= 0 and A[j] > x:
             A[j+1] = A[j]
             j = j-1
         A[j+1] = x
